@@ -13,22 +13,22 @@ let satisfied = false;
 // create a variable called "favoriteThing" that references ANY primitive value
 // print the data type of "favoriteThing"
 let favoriteThing = "Food";
-console.log(favoriteThing);
+console.log(typeof favoriteThing);
 // You heard a new song that became your favorite.
 // Reassign the variable "favoriteSong"
 favoriteSong = "Fly";
 // You no longer like the type of data stored in "favoriteThing"
 // Reassign "favoriteThing" to a different primitive data type and print its type
-favoriteThing = "Sleep";
-console.log(favoriteThing);
+favoriteThing = "sleep";
+console.log(typeof favoriteThing);
 // Happy Birthday!
 // Reassign "age" to a new value
 age = 38;
 // You got a big raise at work.
 // Reassign "wage" to a new value
-wage = "satisfied";
+wage = 35;
 // Your raise changed your job satisfaction.
 // Assign "satisfied" to true
 satisfied = true;
 // use "console.log()" and "+" to print a sentence that includes two of the above variables
-console.log("I am");
+console.log("I am " + age + " years old and I like to " + favoriteThing);

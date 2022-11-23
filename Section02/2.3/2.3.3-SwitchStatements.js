@@ -25,15 +25,17 @@ switch (day) {
     console.log(message);
     break;
   }
-  default:
-    console.log`Write a sassy default message here`;
-    break;
+
   case 2:
     console.log`Today is Tuesday`;
     break;
   // write a case here for the weekend (how many days in the weekend?)
-  case 0:
-    alert(`It's the Weekend !!`);
+  case 6 :
+  case 0 :
+    alert`It's the Weekend !!`;
+    break;
+  default:
+    console.log`Write a sassy default message here`;
 
 }
 if (dayName !== 'Today'{
